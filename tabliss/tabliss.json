@@ -1,0 +1,67 @@
+{
+  "focus": false,
+  "widget/default-greeting": null,
+  "data/default-time": {
+    "mode": "digital",
+    "hour12": true,
+    "showDate": true,
+    "showMinutes": true,
+    "showSeconds": false,
+    "showDayPeriod": true,
+    "timeZone": null
+  },
+  "widget/f1bSzcuqZuxG": {
+    "id": "f1bSzcuqZuxG",
+    "key": "widget/weather",
+    "order": 2,
+    "display": {
+      "position": "middleCentre",
+      "fontFamily": "JetbrainsMono Nerd Font Mono"
+    }
+  },
+  "widget/TQQNmPqSYHIB": {
+    "id": "TQQNmPqSYHIB",
+    "key": "widget/quote",
+    "order": 1,
+    "display": {
+      "position": "middleCentre",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "fontFamily": "JetbrainsMono Nerd Font Mono"
+    }
+  },
+  "widget/default-time": {
+    "id": "default-time",
+    "key": "widget/time",
+    "order": 0,
+    "display": {
+      "position": "middleCentre",
+      "fontFamily": "JetbrainsMono Nerd Font Mono"
+    }
+  },
+  "background": {
+    "id": "default-unsplash",
+    "key": "background/unsplash",
+    "display": { "luminosity": -0.3, "blur": 0 }
+  },
+  "data/TQQNmPqSYHIB": { "category": "developerexcuses" },
+  "data/f1bSzcuqZuxG": {
+    "showDetails": false,
+    "units": "si",
+    "latitude": 22.5333,
+    "longitude": 72.9,
+    "name": "Vallabh Vidyanagar"
+  },
+  "data/default-unsplash": {
+    "by": "search",
+    "collections": "",
+    "featured": false,
+    "paused": false,
+    "search": "dark fluid gradient",
+    "topics": "bo8jQKTaE0Y",
+    "timeout": 86400
+  },
+  "locale": "en",
+  "timeZone": null,
+  "version": 3
+}

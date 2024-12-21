@@ -1,0 +1,21 @@
+(defcfg
+  process-unmapped-keys yes
+  log-layer-changes yes
+)
+
+(defsrc
+  caps
+)
+
+(deflayer default
+  @caps
+)
+
+(defvar
+  tap-time 200
+  hold-time 2000
+)
+
+(defalias
+  caps (tap-hold $tap-time $hold-time esc lctl)
+)

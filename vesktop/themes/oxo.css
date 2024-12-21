@@ -1,0 +1,38 @@
+/**
+ * @name Oxocarbon
+ * @description Nyoom's colorscheme adapted from IBM Carbon
+ * @author Nyoom/IBM
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+ * @BDEditor DiscordRecolor
+ */
+
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css");
+
+:root {
+    --font: "JetBrains Mono";
+    letter-spacing: -0.12ch; /* decreases letter spacing for better readability. */
+    font-weight: 400; /* UI font weight. */
+    --label-font-weight: 500; /* font weight for panel labels. */
+    --corner-text: "blucin"; /* custom text to display in the corner. only works on windows. */
+    --pad: 10px; /* padding between panels. */
+    --txt-pad: 5px; /* padding inside panels to prevent labels from clipping */
+    --panel-roundness: 0px; /* corner roundness of panels. ONLY WORKS IF unrounding.css IS REMOVED (see above). */
+
+    --accentcolor: 152, 119, 204;
+    --accentcolor2: 238, 83, 150;
+    --linkcolor: 8, 200, 200;
+    --mentioncolor: 144, 255, 120;
+    --textbrightest: 255, 255, 255;
+    --textbrighter: 222, 222, 222;
+    --textbright: 185, 185, 185;
+    --textdark: 140, 140, 140;
+    --textdarker: 115, 115, 115;
+    --textdarkest: 80, 80, 80;
+    --backgroundaccent: 57, 57, 57;
+    --backgroundprimary: 22, 22, 22;
+    --backgroundsecondary: 30, 30, 30;
+    --backgroundsecondaryalt: 19, 19, 19;
+    --backgroundtertiary: 22, 22, 22;
+    --backgroundfloating: 47, 47, 47;
+    --settingsicons: 1;
+}
